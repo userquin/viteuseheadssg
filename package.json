@@ -1,0 +1,25 @@
+{
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite-ssg build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.4",
+    "@vue/compiler-sfc": "^3.1.5",
+    "@vue/server-renderer": "^3.1.5",
+    "@vueuse/head": "^0.6.0",
+    "vite": "^2.4.1",
+    "vite-plugin-components": "^0.13.2",
+    "vite-plugin-md": "^0.10.0",
+    "vite-plugin-pages": "^0.15.1",
+    "vite-plugin-windicss": "^1.2.7",
+    "vite-ssg": "^0.12.0",
+    "vue-router": "^4.0.10",
+    "windicss": "^3.1.6"
+  }
+}
